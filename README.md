@@ -1,4 +1,6 @@
 # Strider Services: Tagging, Categorization, Deep-linking, Social realtime search
+[striderdi.com](http://striderdi.com)
+[apis REST endPoint](http://api.striderdi.com)
 
 Official C# Library for these services.
 
