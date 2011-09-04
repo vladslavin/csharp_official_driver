@@ -32,7 +32,7 @@ namespace Strider.Client.TextMiner.Client
             XElement idElement = xml_res.Element("id");
             if (idElement != null)
             {
-                articleId = Int16.Parse(idElement.Value);
+                articleId = Int32.Parse(idElement.Value);
             }
             else
             {
@@ -132,7 +132,7 @@ namespace Strider.Client.TextMiner.Client
             XElement xmlElement = xml_res.Element("id");
             if (xmlElement != null)
             {
-                articleId = Int16.Parse(xmlElement.Value);
+                articleId = Int32.Parse(xmlElement.Value);
             }
             else
             {
